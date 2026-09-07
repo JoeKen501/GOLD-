@@ -1,1 +1,1196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JOE KEN PROJECT</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <title>JOEKENCore Gold | Premium Gold Investment</title>
+
+    <meta
+        name="description"
+        content="AurumCore Gold provides premium gold trading, investment, custody and delivery services."
+    >
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.css"
+    >
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- ================= NAVIGATION ================= -->
+
+<header class="navbar">
+    <div class="container nav-container">
+
+        <a href="#home" class="logo">
+            <span class="logo-icon">
+                <i class="ri-vip-diamond-fill"></i>
+            </span>
+
+            <span>
+                <strong>JOEKEN</strong>
+                <small>CORE GOLD</small>
+            </span>
+        </a>
+
+        <nav class="nav-links">
+            <a href="#home" class="active">Home</a>
+            <a href="#services">Services</a>
+            <a href="#about">About</a>
+            <a href="#market">Market</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="nav-actions">
+            <button class="btn btn-outline" onclick="openLogin()">
+                Sign In
+            </button>
+
+            <button class="btn btn-gold" onclick="openDashboard()">
+                Dashboard
+            </button>
+        </div>
+
+        <button class="mobile-menu" onclick="toggleMenu()">
+            <i class="ri-menu-line"></i>
+        </button>
+
+    </div>
+</header>
+
+
+<!-- ================= HERO ================= -->
+
+<section class="hero" id="home">
+
+    <div class="hero-overlay"></div>
+
+    <div class="container hero-content">
+
+        <div class="hero-text">
+
+            <span class="eyebrow">
+                <span></span>
+                PRECIOUS METALS
+            </span>
+
+            <h1>
+                Wealth that
+                <em>stands the test of time.</em>
+            </h1>
+
+            <p>
+                Secure your future with responsibly sourced gold,
+                institutional-grade custody and transparent precious
+                metals trading.
+            </p>
+
+            <div class="hero-buttons">
+
+                <button
+                    class="btn btn-gold btn-large"
+                    onclick="openDashboard()"
+                >
+                    Start Investing
+                    <i class="ri-arrow-right-line"></i>
+                </button>
+
+                <button
+                    class="btn btn-glass btn-large"
+                    onclick="scrollToSection('about')"
+                >
+                    Explore AurumCore
+                </button>
+
+            </div>
+
+            <div class="hero-stats">
+
+                <div>
+                    <strong>$2.8B+</strong>
+                    <span>Assets secured</span>
+                </div>
+
+                <div>
+                    <strong>18+</strong>
+                    <span>Years of expertise</span>
+                </div>
+
+                <div>
+                    <strong>42</strong>
+                    <span>Global markets</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= MARKET TICKER ================= -->
+
+<div class="market-ticker">
+
+    <div class="ticker-content">
+
+        <div class="ticker-item">
+            <span>GOLD</span>
+            <strong id="goldPrice">$2,486.40</strong>
+            <small class="positive">
+                +1.24%
+            </small>
+        </div>
+
+        <div class="ticker-item">
+            <span>SILVER</span>
+            <strong>$29.18</strong>
+            <small class="positive">+0.68%</small>
+        </div>
+
+        <div class="ticker-item">
+            <span>PLATINUM</span>
+            <strong>$981.20</strong>
+            <small class="negative">-0.31%</small>
+        </div>
+
+        <div class="ticker-item">
+            <span>PALLADIUM</span>
+            <strong>$1,012.70</strong>
+            <small class="positive">+0.42%</small>
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- ================= SERVICES ================= -->
+
+<section class="section" id="services">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <div>
+                <span class="eyebrow dark">
+                    OUR SERVICES
+                </span>
+
+                <h2>
+                    Built for serious
+                    <span>wealth preservation.</span>
+                </h2>
+            </div>
+
+            <p>
+                From acquisition to secure custody, our integrated
+                platform gives investors complete control over their
+                precious metal assets.
+            </p>
+
+        </div>
+
+
+        <div class="services-grid">
+
+            <article class="service-card">
+
+                <div class="service-icon">
+                    <i class="ri-coins-line"></i>
+                </div>
+
+                <span>01</span>
+
+                <h3>Gold Trading</h3>
+
+                <p>
+                    Access competitive institutional pricing for
+                    physical gold and precious metal products.
+                </p>
+
+                <a href="#contact">
+                    Learn more
+                    <i class="ri-arrow-right-line"></i>
+                </a>
+
+            </article>
+
+
+            <article class="service-card featured">
+
+                <div class="service-icon">
+                    <i class="ri-safe-2-line"></i>
+                </div>
+
+                <span>02</span>
+
+                <h3>Secure Custody</h3>
+
+                <p>
+                    Your assets are stored in fully insured,
+                    high-security vault facilities.
+                </p>
+
+                <a href="#contact">
+                    Learn more
+                    <i class="ri-arrow-right-line"></i>
+                </a>
+
+            </article>
+
+
+            <article class="service-card">
+
+                <div class="service-icon">
+                    <i class="ri-global-line"></i>
+                </div>
+
+                <span>03</span>
+
+                <h3>Global Delivery</h3>
+
+                <p>
+                    Professionally managed insured delivery to
+                    approved destinations worldwide.
+                </p>
+
+                <a href="#contact">
+                    Learn more
+                    <i class="ri-arrow-right-line"></i>
+                </a>
+
+            </article>
+
+
+            <article class="service-card">
+
+                <div class="service-icon">
+                    <i class="ri-bar-chart-box-line"></i>
+                </div>
+
+                <span>04</span>
+
+                <h3>Portfolio Management</h3>
+
+                <p>
+                    Monitor your precious metals portfolio with
+                    detailed analytics and reporting.
+                </p>
+
+                <a href="#dashboard">
+                    View dashboard
+                    <i class="ri-arrow-right-line"></i>
+                </a>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= ABOUT ================= -->
+
+<section class="about-section" id="about">
+
+    <div class="container about-grid">
+
+        <div class="about-image">
+
+            <div class="image-card">
+                <div class="gold-bars">
+                    <div class="gold-bar"></div>
+                    <div class="gold-bar"></div>
+                    <div class="gold-bar"></div>
+                </div>
+            </div>
+
+            <div class="experience-card">
+                <strong>18</strong>
+                <span>Years of<br>excellence</span>
+            </div>
+
+        </div>
+
+
+        <div class="about-content">
+
+            <span class="eyebrow dark">
+                WHY JOEKENCore
+            </span>
+
+            <h2>
+                Gold isn't just an asset.
+                <span>It's a legacy.</span>
+            </h2>
+
+            <p>
+                We believe precious metals should be accessible,
+                transparent and secure. AurumCore combines decades
+                of market expertise with modern technology to give
+                investors confidence at every step.
+            </p>
+
+            <div class="check-list">
+
+                <div>
+                    <i class="ri-checkbox-circle-fill"></i>
+                    <span>Fully insured physical gold</span>
+                </div>
+
+                <div>
+                    <i class="ri-checkbox-circle-fill"></i>
+                    <span>Transparent institutional pricing</span>
+                </div>
+
+                <div>
+                    <i class="ri-checkbox-circle-fill"></i>
+                    <span>Independent vault verification</span>
+                </div>
+
+                <div>
+                    <i class="ri-checkbox-circle-fill"></i>
+                    <span>24/7 portfolio access</span>
+                </div>
+
+            </div>
+
+            <button
+                class="btn btn-dark btn-large"
+                onclick="openDashboard()"
+            >
+                Access your portfolio
+                <i class="ri-arrow-right-line"></i>
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= MARKET ================= -->
+
+<section class="market-section" id="market">
+
+    <div class="container">
+
+        <div class="section-heading market-heading">
+
+            <div>
+                <span class="eyebrow">
+                    LIVE MARKET
+                </span>
+
+                <h2>
+                    Gold at a glance.
+                </h2>
+            </div>
+
+            <div class="market-price">
+
+                <span>SPOT GOLD / OZ</span>
+
+                <strong id="marketGoldPrice">
+                    $2,486.40
+                </strong>
+
+                <small class="positive">
+                    +30.52 (+1.24%)
+                </small>
+
+            </div>
+
+        </div>
+
+
+        <div class="chart-card">
+
+            <div class="chart-header">
+
+                <div class="chart-periods">
+                    <button class="period active" data-period="1D">1D</button>
+                    <button class="period" data-period="1W">1W</button>
+                    <button class="period" data-period="1M">1M</button>
+                    <button class="period" data-period="1Y">1Y</button>
+                </div>
+
+                <span>
+                    Updated just now
+                    <i class="ri-pulse-line"></i>
+                </span>
+
+            </div>
+
+            <div class="chart">
+                <svg
+                    id="goldChart"
+                    viewBox="0 0 1000 360"
+                    preserveAspectRatio="none"
+                >
+                    <defs>
+                        <linearGradient
+                            id="chartGradient"
+                            x1="0"
+                            y1="0"
+                            x2="0"
+                            y2="1"
+                        >
+                            <stop offset="0%" />
+                            <stop offset="100%" />
+                        </linearGradient>
+                    </defs>
+
+                    <path
+                        id="chartArea"
+                        d=""
+                    />
+
+                    <path
+                        id="chartLine"
+                        d=""
+                    />
+
+                </svg>
+
+                <div class="chart-labels">
+                    <span>09:00</span>
+                    <span>11:00</span>
+                    <span>13:00</span>
+                    <span>15:00</span>
+                    <span>17:00</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= DASHBOARD ================= -->
+
+<section class="dashboard-section" id="dashboard">
+
+    <div class="container">
+
+        <div class="dashboard-top">
+
+            <div>
+                <span class="eyebrow dark">
+                    INVESTOR DASHBOARD
+                </span>
+
+                <h2>
+                    Your wealth,
+                    <span>at a glance.</span>
+                </h2>
+            </div>
+
+            <button
+                class="btn btn-gold"
+                onclick="openOrderModal()"
+            >
+                <i class="ri-add-line"></i>
+                New Order
+            </button>
+
+        </div>
+
+
+        <div class="dashboard-grid">
+
+            <div class="dashboard-card balance-card">
+
+                <div class="card-top">
+                    <span>Total portfolio</span>
+                    <i class="ri-more-2-fill"></i>
+                </div>
+
+                <h3 id="portfolioValue">
+                    $842,640.00
+                </h3>
+
+                <div class="balance-change">
+                    <span>
+                        <i class="ri-arrow-up-line"></i>
+                        $12,480.20
+                    </span>
+                    <small>+1.50% today</small>
+                </div>
+
+            </div>
+
+
+            <div class="dashboard-card">
+
+                <div class="card-top">
+                    <span>Gold holdings</span>
+                    <i class="ri-coins-line"></i>
+                </div>
+
+                <h3 id="goldHoldings">
+                    338.78 oz
+                </h3>
+
+                <small>
+                    Physical gold
+                </small>
+
+            </div>
+
+
+            <div class="dashboard-card">
+
+                <div class="card-top">
+                    <span>Available cash</span>
+                    <i class="ri-wallet-3-line"></i>
+                </div>
+
+                <h3 id="cashBalance">
+                    $48,920.00
+                </h3>
+
+                <small>
+                    Ready to invest
+                </small>
+
+            </div>
+
+
+            <div class="dashboard-card">
+
+                <div class="card-top">
+                    <span>Custody status</span>
+                    <i class="ri-shield-check-line"></i>
+                </div>
+
+                <h3 class="status-good">
+                    Protected
+                </h3>
+
+                <small>
+                    Fully insured
+                </small>
+
+            </div>
+
+        </div>
+
+
+        <!-- Dashboard lower area -->
+
+        <div class="dashboard-lower">
+
+            <div class="orders-card">
+
+                <div class="table-header">
+
+                    <div>
+                        <h3>Recent orders</h3>
+                        <p>Your latest precious metal transactions</p>
+                    </div>
+
+                    <button onclick="viewAllOrders()">
+                        View all
+                        <i class="ri-arrow-right-line"></i>
+                    </button>
+
+                </div>
+
+                <div class="table-wrapper">
+
+                    <table>
+
+                        <thead>
+                            <tr>
+                                <th>Order</th>
+                                <th>Asset</th>
+                                <th>Quantity</th>
+                                <th>Value</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+
+                        <tbody id="ordersTable">
+
+                            <tr>
+                                <td>
+                                    <strong>#AC-24819</strong>
+                                    <small>Sep 02, 2026</small>
+                                </td>
+
+                                <td>Gold Bar</td>
+
+                                <td>25 oz</td>
+
+                                <td>$62,160</td>
+
+                                <td>
+                                    <span class="badge completed">
+                                        Completed
+                                    </span>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <strong>#AC-24792</strong>
+                                    <small>Aug 29, 2026</small>
+                                </td>
+
+                                <td>Gold Coins</td>
+
+                                <td>10 oz</td>
+
+                                <td>$24,864</td>
+
+                                <td>
+                                    <span class="badge processing">
+                                        Processing
+                                    </span>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <strong>#AC-24751</strong>
+                                    <small>Aug 24, 2026</small>
+                                </td>
+
+                                <td>Gold Bar</td>
+
+                                <td>50 oz</td>
+
+                                <td>$124,320</td>
+
+                                <td>
+                                    <span class="badge shipped">
+                                        Shipped
+                                    </span>
+                                </td>
+                            </tr>
+
+                        </tbody>
+
+                    </table>
+
+                </div>
+
+            </div>
+
+
+            <div class="allocation-card">
+
+                <div class="table-header">
+                    <div>
+                        <h3>Portfolio allocation</h3>
+                        <p>Current asset distribution</p>
+                    </div>
+                </div>
+
+                <div class="allocation-chart">
+
+                    <div class="donut">
+                        <div class="donut-inner">
+                            <strong>100%</strong>
+                            <span>Portfolio</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="allocation-list">
+
+                    <div>
+                        <span>
+                            <i></i>
+                            Gold
+                        </span>
+                        <strong>78%</strong>
+                    </div>
+
+                    <div>
+                        <span>
+                            <i></i>
+                            Silver
+                        </span>
+                        <strong>12%</strong>
+                    </div>
+
+                    <div>
+                        <span>
+                            <i></i>
+                            Cash
+                        </span>
+                        <strong>10%</strong>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CONTACT ================= -->
+
+<section class="contact-section" id="contact">
+
+    <div class="container contact-grid">
+
+        <div>
+
+            <span class="eyebrow">
+                GET IN TOUCH
+            </span>
+
+            <h2>
+                Ready to build
+                <em>lasting wealth?</em>
+            </h2>
+
+            <p>
+                Speak with one of our precious metals specialists
+                about your investment goals.
+            </p>
+
+            <div class="contact-details">
+
+                <div>
+                    <i class="ri-mail-line"></i>
+                    <span>
+                        <small>Email</small>
+                        hello@aurumcore.com
+                    </span>
+                </div>
+
+                <div>
+                    <i class="ri-phone-line"></i>
+                    <span>
+                        <small>Phone</small>
+                        +1 (800) 555-GOLD
+                    </span>
+                </div>
+
+                <div>
+                    <i class="ri-map-pin-line"></i>
+                    <span>
+                        <small>Headquarters</small>
+                        100 Gold Street, New York
+                    </span>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <form
+            class="contact-form"
+            id="contactForm"
+        >
+
+            <div class="form-row">
+
+                <div class="form-group">
+                    <label>First name</label>
+                    <input
+                        type="text"
+                        id="firstName"
+                        placeholder="John"
+                        required
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label>Last name</label>
+                    <input
+                        type="text"
+                        id="lastName"
+                        placeholder="Doe"
+                        required
+                    >
+                </div>
+
+            </div>
+
+            <div class="form-group">
+
+                <label>Email address</label>
+
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="john@example.com"
+                    required
+                >
+
+            </div>
+
+            <div class="form-group">
+
+                <label>How can we help?</label>
+
+                <select id="interest">
+
+                    <option value="Gold investment">
+                        Gold investment
+                    </option>
+
+                    <option value="Gold custody">
+                        Gold custody
+                    </option>
+
+                    <option value="Physical delivery">
+                        Physical delivery
+                    </option>
+
+                    <option value="Institutional services">
+                        Institutional services
+                    </option>
+
+                </select>
+
+            </div>
+
+            <div class="form-group">
+
+                <label>Message</label>
+
+                <textarea
+                    id="message"
+                    rows="4"
+                    placeholder="Tell us about your goals..."
+                    required
+                ></textarea>
+
+            </div>
+
+            <button
+                class="btn btn-gold btn-large full"
+                type="submit"
+            >
+                Send enquiry
+                <i class="ri-arrow-right-line"></i>
+            </button>
+
+            <div
+                id="formMessage"
+                class="form-message"
+            ></div>
+
+        </form>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <div class="container footer-grid">
+
+        <div class="footer-brand">
+
+            <a href="#home" class="logo">
+
+                <span class="logo-icon">
+                    <i class="ri-vip-diamond-fill"></i>
+                </span>
+
+                <span>
+                    <strong>JOEKEN</strong>
+                    <small>CORE GOLD</small>
+                </span>
+
+            </a>
+
+            <p>
+                Building lasting wealth through precious metals.
+            </p>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h4>Company</h4>
+
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#market">Market</a>
+            <a href="#contact">Contact</a>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h4>Services</h4>
+
+            <a href="#services">Gold Trading</a>
+            <a href="#services">Secure Custody</a>
+            <a href="#services">Global Delivery</a>
+            <a href="#services">Portfolio Management</a>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h4>Connect</h4>
+
+            <div class="socials">
+
+                <a href="#">
+                    <i class="ri-linkedin-fill"></i>
+                </a>
+
+                <a href="#">
+                    <i class="ri-twitter-x-fill"></i>
+                </a>
+
+                <a href="#">
+                    <i class="ri-instagram-line"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        <div class="container">
+
+            <span>
+                © 2026 AurumCore Gold. All rights reserved.
+            </span>
+
+            <div>
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+            </div>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+<!-- ================= LOGIN MODAL ================= -->
+
+<div
+    class="modal"
+    id="loginModal"
+    onclick="closeModalOutside(event)"
+>
+
+    <div class="modal-box">
+
+        <button
+            class="modal-close"
+            onclick="closeLogin()"
+        >
+            <i class="ri-close-line"></i>
+        </button>
+
+        <div class="modal-icon">
+            <i class="ri-lock-2-line"></i>
+        </div>
+
+        <h2>Welcome back</h2>
+
+        <p>
+            Sign in to access your investment dashboard.
+        </p>
+
+        <form onsubmit="login(event)">
+
+            <div class="form-group">
+
+                <label>Email</label>
+
+                <input
+                    type="email"
+                    placeholder="you@example.com"
+                    required
+                >
+
+            </div>
+
+            <div class="form-group">
+
+                <label>Password</label>
+
+                <input
+                    type="password"
+                    placeholder="••••••••"
+                    required
+                >
+
+            </div>
+
+            <button
+                class="btn btn-gold btn-large full"
+                type="submit"
+            >
+                Sign in
+            </button>
+
+        </form>
+
+    </div>
+
+</div>
+
+
+<!-- ================= ORDER MODAL ================= -->
+
+<div
+    class="modal"
+    id="orderModal"
+    onclick="closeOrderOutside(event)"
+>
+
+    <div class="modal-box">
+
+        <button
+            class="modal-close"
+            onclick="closeOrderModal()"
+        >
+            <i class="ri-close-line"></i>
+        </button>
+
+        <div class="modal-icon">
+            <i class="ri-add-circle-line"></i>
+        </div>
+
+        <h2>New gold order</h2>
+
+        <p>
+            Create a new precious metals purchase.
+        </p>
+
+        <form onsubmit="createOrder(event)">
+
+            <div class="form-group">
+
+                <label>Asset</label>
+
+                <select id="orderAsset">
+
+                    <option value="Gold Bar">
+                        Gold Bar
+                    </option>
+
+                    <option value="Gold Coins">
+                        Gold Coins
+                    </option>
+
+                    <option value="Silver">
+                        Silver
+                    </option>
+
+                </select>
+
+            </div>
+
+            <div class="form-group">
+
+                <label>Quantity (oz)</label>
+
+                <input
+                    type="number"
+                    id="orderQuantity"
+                    min="1"
+                    value="10"
+                    required
+                >
+
+            </div>
+
+            <div class="order-summary">
+
+                <span>Estimated value</span>
+
+                <strong id="orderValue">
+                    $24,864.00
+                </strong>
+
+            </div>
+
+            <button
+                class="btn btn-gold btn-large full"
+                type="submit"
+            >
+                Place order
+                <i class="ri-arrow-right-line"></i>
+            </button>
+
+        </form>
+
+    </div>
+
+</div>
+
+
+<!-- ================= TOAST ================= -->
+
+<div
+    id="toast"
+    class="toast"
+>
+    <i class="ri-checkbox-circle-fill"></i>
+    <span>Success</span>
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
+
+</body>
+</html>
